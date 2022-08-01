@@ -597,6 +597,8 @@ margin-right: 10px;
      text-align: center;
      letter-spacing: 0.03em;
      color: var(--primary-font-color);
+     transition: background-color var(--transition-speed), color var(--transition-speed),
+               box-shadow var(--transition-speed);
 }
 
 .regulator-btn:hover,
