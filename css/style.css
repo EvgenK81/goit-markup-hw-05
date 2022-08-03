@@ -434,8 +434,8 @@ margin-right: 10px;
 /*REGULAR CUSTOMERS*/
 .brand-link{
      fill: var(--icon-color);
-     transition: border var(--transition-speed);
-      transition: fill var(--transition-speed);
+    
+      
 
 }
 .brand-link:hover ,
@@ -460,6 +460,9 @@ margin-right: 10px;
      color: var(--primary-font-color);
 
 }
+.brand-logo{
+transition: fill var(--transition-speed);
+}
 .brand{
      display: flex;
      justify-content: center;
@@ -478,6 +481,7 @@ margin-right: 10px;
      border-radius: 4px;
      width: 100%;
      height: 100%;
+     transition: border var(--transition-speed);
 }
 /*FOOTER-FIRST*/
 
@@ -621,6 +625,7 @@ margin-right: 10px;
 
 }
 .regulator-btn {
+     background-color: #F5F4FA;
      border: transparent;
      border-radius: 4px;
      margin: auto;
@@ -639,7 +644,7 @@ margin-right: 10px;
 
 .regulator-btn:hover,
 .regulator-btn:focus {
-     background-color:#2196F3;
+     background-color: #2196F3;
      color: var(--button-text-color);
      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 
      0px 2px 2px rgba(0, 0, 0, 0.12);
